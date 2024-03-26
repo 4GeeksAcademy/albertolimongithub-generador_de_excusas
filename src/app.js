@@ -10,7 +10,7 @@ window.onload = function() {
 
   let excusa = generarExcusa();
   console.log(excusa);
-  document.querySelector("#excusa").innerHTML = excusa;
+  document.getElementById("excusa").innerHTML = excusa;
 };
 
 function generarExcusa() {
